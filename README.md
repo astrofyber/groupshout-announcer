@@ -23,9 +23,8 @@ Database folders and npm folders will appear when you run the bot for the first 
 **When you restart the bot, you may need to delete the 'var values' from the database file (/container/database/main) and simply set it to '{}' so that there are no values. If you don't do this, it may not make future shouts.**
 # 📮 Post specific posts
 If you want the bot to only post when a specific word is present in the group shout, then replace the code with the following `$if` statement and replace `MESSAGE` with the word you want. \
-You can include multiple words by separating them with question marks (;) and the bot will look for these words. If any of them are present, it will make a post. \ \
+You can include multiple words by separating them with question marks (;) and the bot will look for these words. If any of them are present, it will make a post. 
 
-Please provide the specific code you'd like to use so that I can assist you with the `$if` statement:
 ```js
     $if[$getVar[shoutm]==$getVar[same]]
     	$elseif[$checkContains[$getVar[shoutm];MESSAGE]==true]
