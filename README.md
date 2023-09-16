@@ -6,6 +6,13 @@
 ```npm I discord.js```
 
 # ⚙️ Configuration
+Go to the `index.js` file and on lines 4-5, add the `token` and `bot prefix`. \
+If you're running it on repl.it, use secret variables to avoid exposing the bot token.
+```
+    token: "BOT TOKEN", // CHANGE YOUR BOT TOKEN
+    prefix: "BOT PREFIX", //CHANGE YOUR BOT PREFIX
+```
+
 Go to the `index.js` file, and on lines 33-34, change the variables in the code, and you're ready to go.
 ```	
 	groupid: "ID", // PASTE YOUR GROUP ID
