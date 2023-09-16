@@ -19,9 +19,11 @@ Go to the `index.js` file, and on lines 33-34, change the variables in the code,
 	channel: "ID", // PASTE YOUR CHANNEL ID
 ```
 Database folders and npm folders will appear when you run the bot for the first time with the appropriate packages I mentioned earlier.
+
+**When you restart the bot, you may need to delete the 'var values' from the database file (/container/database/main) and simply set it to '{}' so that there are no values. If you don't do this, it may not make future shouts.**
 # 📮 Post specific posts
 If you want the bot to only post when a specific word is present in the group shout, then replace the code with the following `$if` statement and replace `MESSAGE` with the word you want. \
-You can include multiple words by separating them with commas (,) and the bot will look for these words. If any of them are present, it will make a post.
+You can include multiple words by separating them with commas (,) and the bot will look for these words. If any of them are present, it will make a post. \ \
 
 Please provide the specific code you'd like to use so that I can assist you with the `$if` statement:
 ```js
