@@ -15,5 +15,5 @@ Go to the `index.js` file, and on lines 33-34, change the variables in the code,
 Each message is editable through the code, credits are not required but would be appreciated.
 
 # 🛠️ New versions
-**I haven't tested the code on newer versions of aoi.js.** n\
+**I haven't tested the code on newer versions of aoi.js.** \
 I typically strive to stay on the latest version of aoi.js, so if v6.1 becomes unsupported, I might consider updating it if necessary.
