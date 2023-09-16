@@ -2,7 +2,7 @@ module.exports = [{
     name: "groupshout",
     type: "loop",
     channel: "$getVar[channel]",
-    executeOnStartup: false,
+    executeOnStartup: true,
     every: 60000,
     $if: "old",
     code: `
