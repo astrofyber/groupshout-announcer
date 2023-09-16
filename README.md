@@ -3,7 +3,7 @@
 
 # 📚 Packages 
 ```npm i aoi.js@6.1.1```
-```npm I discord.js```
+```npm i discord.js```
 
 # ⚙️ Configuration
 Go to the `index.js` file and on lines 4-5, add the `token` and `bot prefix`. \
