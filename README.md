@@ -11,6 +11,7 @@ Go to the `index.js` file, and on lines 33-34, change the variables in the code,
 	groupid: "ID", // PASTE YOUR GROUP ID
 	channel: "ID", // PASTE YOUR CHANNEL ID
 ```
+Database folders and npm folders will appear when you run the bot for the first time with the appropriate packages I mentioned earlier.
 # ❤️ Credits
 Each message is editable through the code, credits are not required but would be appreciated.
 
